@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WEATHER APPLICATION</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./Assets/sunny-day.png" type="image/x-icon">
+</head>
+<body>
+    <main id="main_container">
+        <section id="card_container">
+            <form id="firstSection">
+                <input type="text" id="location" placeholder="Enter your location">
+                <input type="submit" value="Get Weather">
+            </form>
+            <article id="secondSection">
+                <img src="./Assets/sunny-day.png" alt="" id="img">
+                <p id="desc">SUNNY</p>
+            </article>
+            <article id="thirdSection">
+                <section id="temperature">
+                    <h1>0<sup>0</sup></h1>
+                    <p>TEMPERATURE</p>
+                </section>
+                <section id="humidity">
+                    <h1>0 KMPH</h1>
+                    <p>HUMIDITY</p>
+                </section>
+            </article>
+        </section>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
